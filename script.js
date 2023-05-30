@@ -52,7 +52,7 @@ const chooseWeapon = (e) => {
     showResult(myChoice, compyChoice);
     if (playerPoints === 10 || computerPoints === 10) {
       gameEnded = true;
-      message.textContent = playerPoints === 10 ? 'GG!' : 'Game over...';
+      message.textContent = playerPoints === 10 ? 'Congratulations!' : 'Game over...';
       return;
     }
   }
